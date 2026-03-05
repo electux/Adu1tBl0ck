@@ -1,34 +1,151 @@
-# Gradle files
+# ==============================
+
+# Android / Gradle
+
+# ==============================
+
 .gradle/
 build/
+*/build/
 
-# Local configuration file (sdk path, etc)
+# Gradle wrapper cache
+
+.gradle-cache/
+
+# Local Gradle configuration
+
+gradle-app.setting
+
+# ==============================
+
+# Local configuration
+
+# ==============================
+
+# SDK path
+
 local.properties
 
-# Log/OS Files
-*.log
+# Environment / secrets
 
-# Android Studio generated files and folders
+.env
+.env.*
+
+# ==============================
+
+# Android Studio / IntelliJ
+
+# ==============================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Specific IDE configs that should not be shared
+
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Android Studio generated
+
 captures/
-.externalNativeBuild/
-.cxx/
-*.aab
+.navigation/
+
+# ==============================
+
+# Build outputs
+
+# ==============================
+
 *.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+
 output-metadata.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Generated folders
 
-# Keystore files
+bin/
+gen/
+out/
+
+# ==============================
+
+# Native builds (NDK / C++)
+
+# ==============================
+
+.externalNativeBuild/
+.cxx/
+obj/
+
+# ==============================
+
+# Logs
+
+# ==============================
+
+*.log
+
+# ==============================
+
+# Profiling
+
+# ==============================
+
+*.hprof
+
+# ==============================
+
+# Keystore / signing
+
+# ==============================
+
 *.jks
 *.keystore
+*.pem
 
-# Google Services (e.g. APIs or Firebase)
+# ==============================
+
+# Google / Firebase
+
+# ==============================
+
 google-services.json
+firebase.json
 
-# Android Profiling
-*.hprof
+# ==============================
+
+# OS files
+
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+
+# Kotlin
+
+# ==============================
+
+*.kotlin_module
+
+# ==============================
+
+# Temporary files
+
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*~
+
